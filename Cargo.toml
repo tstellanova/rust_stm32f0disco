@@ -2,7 +2,7 @@
 authors = ["tstellanova "]
 edition = "2018"
 readme = "README.md"
-name = "disco"
+name = "stm32f0discovery"
 version = "0.1.0"
 
 [dependencies]
@@ -28,7 +28,7 @@ features = ["stm32f0x1", "rt",]
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "disco"
+name = "stm32f0discovery"
 test = false
 bench = false
 
